@@ -9,7 +9,8 @@
     which embodies the blend of convenience, safety, and innovation. Leveraging the capabilities of LiDAR sensors, a
     Raspberry Pi Zero, MPU sensors, GPS, GSM modules, servo motors, and ESP32, this project offers practical solutions
     to everyday challenges, enhancing the way visually impaired individuals interact with their environment.
-
+</p>
+<p align="justify">
     Traditional methods of navigation for the visually impaired can be cumbersome, tiresome, and inefficient. This
     technology eliminates such challenges by allowing users to navigate their surroundings with real-time obstacle
     detection and haptic feedback, reducing the need for physical interaction. The wearable navigation aid can be
