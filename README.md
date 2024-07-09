@@ -47,3 +47,14 @@ real-time obstacle detection, haptic feedback, and navigation features exemplifi
 technology in enhancing the quality of life for visually impaired individuals. This project highlights the integration
 of IoT and wearable technology to provide a reliable and effective mobility aid.
 </p>
+## Components required with Bill of Materials
+| Item                   | Quantity | Description                                                   | Links to Products                                      |
+|------------------------|----------|---------------------------------------------------------------|-------------------------------------------------------|
+| Raspberry Pi 4         | 1        | Single-board computer                                         | [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) |
+| YDLidar X2             | 1        | 360-degree 2D LiDAR                                           | [YDLidar X2](https://www.ydlidar.com/products/view?id=10) |
+| ArduCam ToF Camera     | 1        | Time-of-Flight camera                                         | [ArduCam ToF Camera](https://www.arducam.com/product/arducam-tf-mini-tof-camera/) |
+| GSM SIM 800            | 1        | GSM/GPRS module for communication                             | [GSM SIM 800](https://amzn.in/d/6DhYH6h)              |
+| MPU Sensor             | 1        | Accelerometer and gyroscope sensor                            | [MPU Sensor](https://amzn.in/d/7DhJG8g)               |
+| 9V Battery             | 1        | Battery for power supply                                      | [9V Battery](https://amzn.in/d/4DhYH5b)               |
+| Microphone             | 1        | Microphone for audio input                                    | [Microphone](https://amzn.in/d/5DhYG7c)               |
+| Speaker                | 1        | Speaker for audio output                                      | [Speaker](https://amzn.in/d/3DhXG2d)                  |
