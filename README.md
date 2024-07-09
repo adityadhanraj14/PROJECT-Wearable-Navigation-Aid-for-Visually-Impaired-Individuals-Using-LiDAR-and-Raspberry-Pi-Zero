@@ -58,3 +58,4 @@ of IoT and wearable technology to provide a reliable and effective mobility aid.
 | 9V Battery             | 1        | Battery for power supply                                      | [9V Battery](https://amzn.in/d/4DhYH5b)               |
 | Microphone             | 1        | Microphone for audio input                                    | [Microphone](https://amzn.in/d/5DhYG7c)               |
 | Speaker                | 1        | Speaker for audio output                                      | [Speaker](https://amzn.in/d/3DhXG2d)                  |
+
