@@ -1,7 +1,5 @@
 # Wearable Navigation Aid for Visually Impaired Individuals Using LiDAR and Raspberry Pi Zero
 
-![Project Banner](path/to/banner_image.png)
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Overview](#overview)
@@ -103,32 +101,54 @@ Users can benefit from increased confidence and independence in navigating their
 </table>
 
 ## Table for Pin Connections
-| Component       | Pin on Raspberry Pi | Pin Description                  |
-|-----------------|---------------------|----------------------------------|
-| YDLidar X2      | GPIO17              | Power                            |
-|                 | GPIO18              | Ground                           |
-|                 | GPIO15 (UART TX)    | Data Transmission (TX)           |
-|                 | GPIO14 (UART RX)    | Data Reception (RX)              |
-| ArduCam ToF     | GPIO2               | Power                            |
-|                 | GPIO3               | Ground                           |
-|                 | GPIO14 (I2C SDA)    | Data Line (SDA)                  |
-|                 | GPIO15 (I2C SCL)    | Clock Line (SCL)                 |
-| GSM SIM 800     | GPIO4               | Power                            |
-|                 | GPIO5               | Ground                           |
-|                 | GPIO16 (UART TX)    | Data Transmission (TX)           |
-|                 | GPIO17 (UART RX)    | Data Reception (RX)              |
-| MPU Sensor      | GPIO6               | Power                            |
-|                 | GPIO7               | Ground                           |
-|                 | GPIO8 (I2C SDA)     | Data Line (SDA)                  |
-|                 | GPIO9 (I2C SCL)     | Clock Line (SCL)                 |
-| Servo Motors    | GPIO10              | PWM Control                      |
-|                 | GPIO11              | Power                            |
-|                 | GPIO12              | Ground                           |
-| ESP32           | GPIO13              | Communication                    |
-|                 | GPIO19              | Power                            |
-|                 | GPIO20              | Ground                           |
-| 9V Battery      | GPIO21              | Power                            |
-|                 | GPIO22              | Ground                           |
+
+<table>
+  <tr>
+    <th>Component</th>
+    <th>Pin on Raspberry Pi</th>
+    <th>Pin Description</th>
+  </tr>
+  <tr>
+    <td>YDLidar X2</td>
+    <td>USB Port</td>
+    <td>Power and Data</td>
+  </tr>
+  <tr>
+    <td>TOF Sensor</td>
+    <td>CSI Port</td>
+    <td>Data Line (CSI)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GPIO 3 (SCL)</td>
+    <td>Clock Line (SCL)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GPIO 2 (SDA)</td>
+    <td>Data Line (SDA)</td>
+  </tr>
+  <tr>
+    <td>GSM Module</td>
+    <td>GPIO 14 (TXD)</td>
+    <td>Data Transmission (TX)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GPIO 15 (RXD)</td>
+    <td>Data Reception (RX)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GPIO 4</td>
+    <td>Power</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GND</td>
+    <td>Ground</td>
+  </tr>
+</table>
 
 ## Pinout Diagram
 ![Pinout Diagram](pinout_diagram.png.png)
