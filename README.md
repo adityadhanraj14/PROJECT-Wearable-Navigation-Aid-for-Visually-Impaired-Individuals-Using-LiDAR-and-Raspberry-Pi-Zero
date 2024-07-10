@@ -131,7 +131,7 @@ Users can benefit from increased confidence and independence in navigating their
 |                 | GPIO22              | Ground                           |
 
 ## Pinout Diagram
-![Pinout Diagram](path/to/pinout_diagram.png)
+![Pinout Diagram](pinout_diagram.png.png)
 
 ## Working Code
 ```python
