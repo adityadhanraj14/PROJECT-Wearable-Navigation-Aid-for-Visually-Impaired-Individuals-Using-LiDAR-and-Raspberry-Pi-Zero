@@ -48,14 +48,61 @@ technology in enhancing the quality of life for visually impaired individuals. T
 of IoT and wearable technology to provide a reliable and effective mobility aid.
 </p>
 ## Components required with Bill of Materials
-| Item                   | Quantity | Description                                                   | Links to Products                                      |
-|------------------------|----------|---------------------------------------------------------------|-------------------------------------------------------|
-| Raspberry Pi 4         | 1        | Single-board computer                                         | [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) |
-| YDLidar X2             | 1        | 360-degree 2D LiDAR                                           | [YDLidar X2](https://www.ydlidar.com/products/view?id=10) |
-| ArduCam ToF Camera     | 1        | Time-of-Flight camera                                         | [ArduCam ToF Camera](https://www.arducam.com/product/arducam-tf-mini-tof-camera/) |
-| GSM SIM 800            | 1        | GSM/GPRS module for communication                             | [GSM SIM 800](https://amzn.in/d/6DhYH6h)              |
-| MPU Sensor             | 1        | Accelerometer and gyroscope sensor                            | [MPU Sensor](https://amzn.in/d/7DhJG8g)               |
-| 9V Battery             | 1        | Battery for power supply                                      | [9V Battery](https://amzn.in/d/4DhYH5b)               |
-| Microphone             | 1        | Microphone for audio input                                    | [Microphone](https://amzn.in/d/5DhYG7c)               |
-| Speaker                | 1        | Speaker for audio output                                      | [Speaker](https://amzn.in/d/3DhXG2d)                  |
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Quantity</th>
+    <th>Description</th>
+    <th>Links to Products</th>
+  </tr>
+  <tr>
+    <td>Raspberry Pi 4</td>
+    <td>1</td>
+    <td>Single-board computer</td>
+    <td><a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/">Raspberry Pi 4</a></td>
+  </tr>
+  <tr>
+    <td>YDLidar X2</td>
+    <td>1</td>
+    <td>360-degree 2D LiDAR</td>
+    <td><a href="https://www.ydlidar.com/products/view?id=10">YDLidar X2</a></td>
+  </tr>
+  <tr>
+    <td>ArduCam ToF Camera</td>
+    <td>1</td>
+    <td>Time-of-Flight camera</td>
+    <td><a href="https://www.arducam.com/product/arducam-tf-mini-tof-camera/">ArduCam ToF Camera</a></td>
+  </tr>
+  <tr>
+    <td>GSM SIM 800</td>
+    <td>1</td>
+    <td>GSM/GPRS module for communication</td>
+    <td><a href="https://amzn.in/d/6DhYH6h">GSM SIM 800</a></td>
+  </tr>
+  <tr>
+    <td>MPU Sensor</td>
+    <td>1</td>
+    <td>Accelerometer and gyroscope sensor</td>
+    <td><a href="https://amzn.in/d/7DhJG8g">MPU Sensor</a></td>
+  </tr>
+  <tr>
+    <td>9V Battery</td>
+    <td>1</td>
+    <td>Battery for power supply</td>
+    <td><a href="https://amzn.in/d/4DhYH5b">9V Battery</a></td>
+  </tr>
+  <tr>
+    <td>Microphone</td>
+    <td>1</td>
+    <td>Microphone for audio input</td>
+    <td><a href="https://amzn.in/d/5DhYG7c">Microphone</a></td>
+  </tr>
+  <tr>
+    <td>Speaker</td>
+    <td>1</td>
+    <td>Speaker for audio output</td>
+    <td><a href="https://amzn.in/d/3DhXG2d">Speaker</a></td>
+  </tr>
+</table>
+
 
