@@ -158,7 +158,12 @@ Users can benefit from increased confidence and independence in navigating their
 
 ##Demo Video
 <p align="center">
-  <a href="path/to/your/video.mp4" target="_blank">
+  <a href="demo.mp4" target="_blank">
+    <img src="thumbnail_of_video.png" alt="Demo Video">
+  </a>
+</p>
+<p align="center">
+  <a href="demo01.mp4" target="_blank">
     <img src="thumbnail_of_video.png" alt="Demo Video">
   </a>
 </p>
