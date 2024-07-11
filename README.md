@@ -167,6 +167,8 @@ Users can benefit from increased confidence and independence in navigating their
     <img src="thumbnail_of_video.png" alt="Demo Video">
   </a>
 </p>
+![Hardware component](hardware.png.png)
+
 
 <p>
     <img src = "/home/aditya/Pictures/d2.jpeg">
