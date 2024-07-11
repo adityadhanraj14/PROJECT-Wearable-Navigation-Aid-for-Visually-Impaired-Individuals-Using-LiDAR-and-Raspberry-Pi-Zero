@@ -153,29 +153,13 @@ Users can benefit from increased confidence and independence in navigating their
 ## Pinout Diagram
 ![Pinout Diagram](pinout_diagram.png.png)
 
-## Working Code
-```python
-# Example Python code for obstacle detection and haptic feedback
-import RPi.GPIO as GPIO
-import time
 
-# Setup GPIO pins
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(17, GPIO.OUT)  # Example pin for LiDAR power
-# Add more GPIO setup as needed
 
-def detect_obstacle():
-    # Code to interface with LiDAR and detect obstacles
-    pass
 
-def provide_feedback():
-    # Code to provide haptic feedback
-    pass
+##Demo Video
+<p align="center">
+  <a href="path/to/your/video.mp4" target="_blank">
+    <img src="thumbnail_of_video.png" alt="Demo Video">
+  </a>
+</p>
 
-try:
-    while True:
-        detect_obstacle()
-        provide_feedback()
-        time.sleep(0.1)  # Adjust as needed
-except KeyboardInterrupt:
-    GPIO.cleanup()
