@@ -156,7 +156,7 @@ Users can benefit from increased confidence and independence in navigating their
 
 
 
-##Demo Video
+## Demo Video
 <p align="center">
   <a href="demo.mp4" target="_blank">
     <img src="thumbnail_of_video.png" alt="Demo Video">
@@ -167,9 +167,7 @@ Users can benefit from increased confidence and independence in navigating their
     <img src="thumbnail_of_video.png" alt="Demo Video">
   </a>
 </p>
-![Hardware component](hardware.png.png)
 
+## Hardware component
+![Hardware component](hardware.jpeg)
 
-<p>
-    <img src = "/home/aditya/Pictures/d2.jpeg">
-</p>
