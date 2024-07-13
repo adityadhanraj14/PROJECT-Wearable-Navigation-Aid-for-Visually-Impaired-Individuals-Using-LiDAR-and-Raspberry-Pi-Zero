@@ -150,7 +150,7 @@ Users can benefit from increased confidence and independence in navigating their
 </table>
 
 ## Pinout Diagram
-![Pinout Diagram](pinout_diagram.png.png)
+![Pinout Diagram](assets/pinout_diagram.png.png)
 
 ## Working Code
 ```python
