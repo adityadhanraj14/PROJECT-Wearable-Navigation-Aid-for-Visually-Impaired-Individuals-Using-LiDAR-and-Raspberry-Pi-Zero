@@ -150,20 +150,14 @@ Users can benefit from increased confidence and independence in navigating their
 </table>
 
 ## Pinout Diagram
-![Pinout Diagram](pinout_diagram.png)
-
-## Demo Video
-<p align="center">
-  <a href="demo.mp4" target="_blank">
-    <img src="thumbnail_of_video.png" alt="Demo Video">
-  </a>
-</p>
-<p align="center">
-  <a href="demo01.mp4" target="_blank">
-    <img src="thumbnail_of_video.png" alt="Demo Video">
-  </a>
-</p>
+![Pinout Diagram](pinout_diagram.png.png)
 
 ## Working Code
 ```python
 # Add your working code here
+```
+
+## Demo Video
+
+
+## 
