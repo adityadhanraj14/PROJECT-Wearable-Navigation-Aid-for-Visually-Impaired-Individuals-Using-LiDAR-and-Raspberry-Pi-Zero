@@ -101,7 +101,6 @@ Users can benefit from increased confidence and independence in navigating their
 </table>
 
 ## Table for Pin Connections
-
 <table>
   <tr>
     <th>Component</th>
@@ -151,10 +150,7 @@ Users can benefit from increased confidence and independence in navigating their
 </table>
 
 ## Pinout Diagram
-![Pinout Diagram](pinout_diagram.png.png)
-
-
-
+![Pinout Diagram](pinout_diagram.png)
 
 ## Demo Video
 <p align="center">
@@ -168,6 +164,6 @@ Users can benefit from increased confidence and independence in navigating their
   </a>
 </p>
 
-## Hardware component
-![Hardware component](hardware.jpeg)
-
+## Working Code
+```python
+# Add your working code here
