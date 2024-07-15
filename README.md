@@ -158,6 +158,5 @@ Users can benefit from increased confidence and independence in navigating their
 ```
 
 ## Demo Video
-https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/demo01.mp4
-
+https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/demo.mp4
 ## 
