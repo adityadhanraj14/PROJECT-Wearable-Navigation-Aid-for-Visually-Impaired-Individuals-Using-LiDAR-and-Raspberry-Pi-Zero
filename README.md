@@ -542,7 +542,49 @@ def camera_loop():
 
             # Run object detection
             (boxes, scores, classes, num) = sess.run(
-                [
+                [detection_boxes, detection_scores, detection_classes, num_detections],
+                feed_dict={image_tensor: frame_expanded}
+            )
+
+            # Visualization of the results of a detection
+            vis_util.visualize_boxes_and_labels_on_image_array(
+                amplitude_buf_rgb,
+                np.squeeze(boxes),
+                np.squeeze(classes).astype(np.int32),
+                np.squeeze(scores),
+                category_index,
+                use_normalized_coordinates=True,
+                line_thickness=4,
+                min_score_thresh=0.30
+            )
+
+            # Display FPS
+            fps = cv2.getTickFrequency() / (cv2.getTickCount() - t1)
+            cv2.putText(amplitude_buf_rgb, f"FPS : {int(fps)}", (10, 30), font, 1, (0, 255, 0), 2, cv2.LINE_AA)
+
+            # Display the resulting frame
+            cv2.imshow('preview', amplitude_buf_rgb)
+
+            # Handle keyboard input
+            key = cv2.waitKey(1) & 0xFF
+            if key == ord('q'):
+                break
+            elif key == ord('s'):
+                save_image()
+            elif key == ord('t'):
+                threading.Thread(target=save_image).start()
+        
+        # Update the window and check for keyboard input
+        cv2.waitKey(1)
+
+# Start threads for camera loop and socket server
+threading.Thread(target=camera_loop).start()
+threading.Thread(target=socket_server).start()
+
+# Clean up
+cam.close()
+cv2.destroyAllWindows()
+
 
 
 ```
