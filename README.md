@@ -14,6 +14,8 @@
 11. [Future Improvement](#future-improvements)
 12. [Setup and Installation](#setup-and-installation)
 13. [Comparison with Existing Technology (OrCam MyEye 2 Pro)](#comparison-with-existing-technology-orcam-myeye-2-pro)
+14. [Previous Project](#previous-project)
+
 
 ## Introduction
 <p align="justify">
@@ -720,3 +722,6 @@ Ensure upscaled_image.jpg is in the same directory as GemTest.py. This image is 
 - **High Cost**: The OrCam MyEye 2 Pro is priced significantly higher, making it less accessible for widespread adoption compared to your cost-effective solution.
 - **Limited AI Capabilities**: It lacks advanced AI capabilities for real-time interaction and dynamic responses compared to the integrated LLM model (Gemini) in your device.
 - **Complexity in Usage**: The interface and operation of OrCam MyEye 2 Pro may be less intuitive and tailored specifically for navigation tasks compared to your device's user-friendly voice-command interface.
+
+## Previous Project
+
