@@ -593,6 +593,12 @@ https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-
 ## Final Working Video
 https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/FINAL_WORKING_DEMO.mp4
 
+## Code Demonstratition
+https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/Code_Demonstrtion_.mp4
+
+## Component Explanation
+https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/Component_Explanation.mp4
+
 ## Video Description
 <h4>Features</h4>
 <ul>
