@@ -723,5 +723,9 @@ Ensure upscaled_image.jpg is in the same directory as GemTest.py. This image is 
 - **Limited AI Capabilities**: It lacks advanced AI capabilities for real-time interaction and dynamic responses compared to the integrated LLM model (Gemini) in your device.
 - **Complexity in Usage**: The interface and operation of OrCam MyEye 2 Pro may be less intuitive and tailored specifically for navigation tasks compared to your device's user-friendly voice-command interface.
 
-## Previous Project
 
+## Previous Project
+https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/humanoid_arm.mp4
+<br>
+<br>
+https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/Robotic_arm.mp4
