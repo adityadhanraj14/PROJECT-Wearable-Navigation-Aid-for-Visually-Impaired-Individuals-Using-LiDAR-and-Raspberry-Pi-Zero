@@ -13,9 +13,7 @@
 10. [Conclusion](#conclusion)
 11. [Future Improvement](#future-improvement)
 12. [Setup and Installation](#setup-and-installation)
-13. [Usage Instructions](#usage-instructions)
-14. [Contribution Guidelines](#contribution-guidelines)
-15. [Comparison with Existing Technology (OrCam MyEye 2 Pro)](#Comparison-with-Existing-Technology-(OrCam-MyEye-2-Pro))
+13. [Comparison with Existing Technology (OrCam MyEye 2 Pro)](#Comparison-with-Existing-Technology-(OrCam-MyEye-2-Pro))
 
 ## Introduction
 <p align="justify">
@@ -666,6 +664,42 @@ processing capabilities.
 - **Battery Efficiency**: Improving power management and exploring energy-efficient components for extended usage times.
 
 These enhancements aim to further elevate the device's functionality, usability, and accessibility for users.
+
+## Setup and Installation
+
+### Prerequisites
+
+- Python 3.x installed on your system.
+- Access to a microphone for input.
+- Google API key for speech recognition.
+- GenerativeAI API key for interactive chat capabilities.
+
+### Installation Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/GemTest.git
+   cd GemTest
+2. **Install dependencies:** <br>
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. **Obtain API keys:** <br>
+Google API key: Obtain from Google Developer Console.
+GenerativeAI API key: Obtain from GenerativeAI Dashboard.
+
+4. **Configure API keys:** <br>
+Replace placeholders in GemTest.py with your actual API keys:
+    ```python
+        genai.configure(api_key="YOUR_GENERATIVEAI_API_KEY")
+    ```
+    ```python
+        recognizer = sr.Recognizer()
+    ```
+5. **Prepare image:** <br>
+Ensure upscaled_image.jpg is in the same directory as GemTest.py. This image is used for object descriptions.
+
+
 
 
 ## Comparison with Existing Technology (OrCam MyEye 2 Pro)
