@@ -591,4 +591,41 @@ cv2.destroyAllWindows()
 
 ## Demo Video
 https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/demo.mp4
-## 
+
+## Video Description
+<h4>Features</h4>
+<ul>
+    <li><b>Real-time Object Detection::</b> Our device uses a TOF camera to detect objects in real time. It provides
+        accurate
+        information about obstacles, including their exact distance, helping users navigate safely.</li>
+    <li><b>Voice Command Interaction::</b> Users can interact with the device using voice commands. The built-in LLM
+        model
+        (Gemini) responds promptly, providing detailed information about the surroundings.</li>
+    <li><b>Multilingual Support::</b> The device supports multiple languages, breaking language barriers and making it
+        accessible to a wider audience.</li>
+    <li><b>Communication Capabilities::</b> In addition to navigation, the device allows users to make calls and send
+        messages
+        via voice commands, ensuring they stay connected at all times.</li>
+    <li><b>Privacy-focused:</b> The TOF camera ensures user privacy by avoiding the capture of real images, focusing
+        solely on
+        depth data for object detection.</li>
+</ul>
+
+<h4>Demonstration</h4>
+<ul>
+    <li><b>Wearing the Device:</b> Watch as we demonstrate the ease of use by wearing the headphone and interacting with
+        the device.</li>
+    <li><b>Giving Commands:</b> See how simple it is to give voice commands and receive accurate, real-time responses
+        from
+        Gemini. Whether it's identifying an obstacle or asking for navigation assistance, Gemini is here to help.
+    </li>
+    <li><b>Object Detection in Action:</b> Experience the device's precision as it detects objects and provides their
+        exact
+        distance, guiding you safely through your environment.</li>
+    <li><b>Making Calls and Sending Messages:</b> Witness the convenience of making calls and sending messages using
+        voice
+        commands, ensuring you stay connected without any hassle.</li>
+    <li><b>Multilingual Interaction:</b> The device's ability to understand and respond in multiple languages is
+        showcased,
+        demonstrating its accessibility and versatility.</li>
+</ul>
