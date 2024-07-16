@@ -15,7 +15,7 @@
 12. [Setup and Installation](#setup-and-installation)
 13. [Usage Instructions](#usage-instructions)
 14. [Contribution Guidelines](#contribution-guidelines)
-15. [License](#license)
+15. [Comparison with Existing Technology (OrCam MyEye 2 Pro)](#Comparison-with-Existing-Technology-(OrCam-MyEye-2-Pro))
 
 ## Introduction
 <p align="justify">
@@ -666,3 +666,20 @@ processing capabilities.
 - **Battery Efficiency**: Improving power management and exploring energy-efficient components for extended usage times.
 
 These enhancements aim to further elevate the device's functionality, usability, and accessibility for users.
+
+
+## Comparison with Existing Technology (OrCam MyEye 2 Pro)
+
+##### Merits of OrCam MyEye 2 Pro
+- **Seamless Text Accessibility**: OrCam MyEye 2 Pro provides extensive reading capabilities, including text from books, screens, and more, activated by voice, gestures, or touch.
+- **Personal Reading Assistant**: It allows users to set their reading pace and preferences, making it versatile for various reading needs.
+- **Object and Face Recognition**: The device can identify objects, recognize faces, and differentiate colors, enhancing daily independence.
+- **Accessibility Features**: Supports voice commands, making it accessible for users with various abilities.
+
+##### Demerits of OrCam MyEye 2 Pro
+- **Limited Navigation Focus**: OrCam MyEye 2 Pro primarily focuses on text and object recognition rather than comprehensive navigation and obstacle detection.
+- **Lack of Distance Accuracy**: It lacks precise distance measurement capabilities for obstacles, relying on a standard camera rather than a depth-sensing technology like your TOF camera.
+- **Privacy Concerns**: OrCam MyEye 2 Pro uses a regular camera for image capture, potentially raising privacy concerns as it captures actual images rather than focusing solely on depth data.
+- **High Cost**: The OrCam MyEye 2 Pro is priced significantly higher, making it less accessible for widespread adoption compared to your cost-effective solution.
+- **Limited AI Capabilities**: It lacks advanced AI capabilities for real-time interaction and dynamic responses compared to the integrated LLM model (Gemini) in your device.
+- **Complexity in Usage**: The interface and operation of OrCam MyEye 2 Pro may be less intuitive and tailored specifically for navigation tasks compared to your device's user-friendly voice-command interface.
