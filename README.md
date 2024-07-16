@@ -588,6 +588,9 @@ cv2.destroyAllWindows()
 ## Demo Video
 https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/demo.mp4
 
+## Final Working Video
+https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/FINAL_WORKING_DEMO.mp4
+
 ## Video Description
 <h4>Features</h4>
 <ul>
