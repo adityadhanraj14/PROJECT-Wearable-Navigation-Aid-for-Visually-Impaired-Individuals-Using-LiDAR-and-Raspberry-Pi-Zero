@@ -9,15 +9,13 @@
 6. [Working Code](#working-code)
 7. [Demo Video](#demo-video)
 8. [Video Description](#video-description)
-9. [Acknowledgements](#acknowledgements)
-10. [Result](#result)
-11. [Conclusion](#conclusion)
-12. [Future Improvement](#future-improvement)
-13. [Presentation](#presentation)
-14. [Setup and Installation](#setup-and-installation)
-15. [Usage Instructions](#usage-instructions)
-16. [Contribution Guidelines](#contribution-guidelines)
-17. [License](#license)
+9. [Result](#result)
+10. [Conclusion](#conclusion)
+11. [Future Improvement](#future-improvement)
+12. [Setup and Installation](#setup-and-installation)
+13. [Usage Instructions](#usage-instructions)
+14. [Contribution Guidelines](#contribution-guidelines)
+15. [License](#license)
 
 ## Introduction
 <p align="justify">
@@ -629,3 +627,22 @@ https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-
         showcased,
         demonstrating its accessibility and versatility.</li>
 </ul>
+
+## Result
+
+The navigation device for the blind, powered by a Raspberry Pi 4, TOF camera, and advanced machine learning models, has
+successfully demonstrated the following key outcomes:
+
+- Real-time object detection with accurate obstacle distance measurement.
+- Seamless voice command interaction using the LLM model (Gemini).
+- Multilingual support for wider accessibility.
+- Communication capabilities including voice-controlled calls and messaging.
+- Privacy-focused operation using TOF camera for depth-based object detection.
+
+## Conclusion
+
+In conclusion, our navigation device represents a significant advancement in assistive technology for the blind,
+combining state-of-the-art hardware and software components to provide real-time navigation assistance. The integration
+of object detection, distance measurement, and interactive voice command capabilities ensures enhanced safety and
+independence for users. With its privacy-focused design and multi-language support, the device stands out as a versatile
+tool for navigating complex environments.
