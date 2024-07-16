@@ -60,43 +60,43 @@ Users can benefit from increased confidence and independence in navigating their
     <td>YDLidar X2</td>
     <td>1</td>
     <td>360-degree 2D LiDAR</td>
-    <td><a href="https://www.ydlidar.com/products/view?id=10">YDLidar X2</a></td>
+    <td><a href="https://robu.in/product/ydlidar-x2l-range-finder/?gad_source=1&gclid=CjwKCAjwtNi0BhA1EiwAWZaANGSRj5HHg5FWiyIhRXaESyklDIacMUF7kpODNAL2sFHSsQEIeEtqkRoCTMYQAvD_BwE/">YDLidar X2</a></td>
   </tr>
   <tr>
     <td>ArduCam ToF Camera</td>
     <td>1</td>
     <td>Time-of-Flight camera</td>
-    <td><a href="https://www.arducam.com/product/arducam-tf-mini-tof-camera/">ArduCam ToF Camera</a></td>
+    <td><a href="https://robu.in/product/arducam-time-of-flight-camera-for-raspberry-pi/">ArduCam ToF Camera</a></td>
   </tr>
   <tr>
     <td>GSM SIM 800</td>
     <td>1</td>
     <td>GSM/GPRS module for communication</td>
-    <td><a href="https://amzn.in/d/6DhYH6h">GSM SIM 800</a></td>
+    <td><a href="https://mifraelectronics.com/shop/wireless-modules/gsm-modules/sim800a-quad-band-gsm-gprs-module/">GSM SIM 800</a></td>
   </tr>
   <tr>
     <td>MPU Sensor</td>
     <td>1</td>
     <td>Accelerometer and gyroscope sensor</td>
-    <td><a href="https://amzn.in/d/7DhJG8g">MPU Sensor</a></td>
+    <td><a href="https://mifraelectronics.com/shop/iot-sensors/sensors-module/accelerometer-and-gyroscope-sensor-from-mifar-electronics-store/mpu-6050-3-axis-accelerometer-and-gyroscope-sensor/">MPU Sensor</a></td>
   </tr>
   <tr>
     <td>9V Battery</td>
     <td>1</td>
     <td>Battery for power supply</td>
-    <td><a href="https://amzn.in/d/4DhYH5b">9V Battery</a></td>
+    <td><a href="https://robu.in/product/18650-lithium-battery-shield-v8-mobile-power-expansion-board-module-5v-3a-3v-1a-micro-usb-for-arduino-esp32-esp8266-%EF%BC%882-switch%EF%BC%89/?gad_source=1&gclid=CjwKCAjwtNi0BhA1EiwAWZaANEHsx5Ie2l1eqHJgPrN4cbGqGxEM130RNvvJ3WtiU4M4xBdZFUdqehoCiM0QAvD_BwE">9V Battery</a></td>
   </tr>
   <tr>
     <td>Microphone</td>
     <td>1</td>
     <td>Microphone for audio input</td>
-    <td><a href="https://amzn.in/d/5DhYG7c">Microphone</a></td>
+    <td><a href="https://robu.in/product/microphone-97mm-pack-of-3/">Microphone</a></td>
   </tr>
   <tr>
     <td>Speaker</td>
     <td>1</td>
     <td>Speaker for audio output</td>
-    <td><a href="https://amzn.in/d/3DhXG2d">Speaker</a></td>
+    <td><a href="https://robu.in/product/0-5w-8ohm-trumpet-diameter-36mm/?gad_source=1&gclid=CjwKCAjwtNi0BhA1EiwAWZaANHuaOZYx9Gw4oQvfK9lCC2rXfpl0QzlOuhfSdlxTyuw2gA2WdqCKIxoC2RIQAvD_BwE">Speaker</a></td>
   </tr>
 </table>
 
