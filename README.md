@@ -8,38 +8,64 @@
 5. [Pinout Diagram](#pinout-diagram)
 6. [Working Code](#working-code)
 7. [Demo Video](#demo-video)
-8. [Acknowledgements](#acknowledgements)
-9. [Result](#result)
-10. [Conclusion](#conclusion)
-11. [Future Improvement](#future-improvement)
-12. [Presentation](#presentation)
-13. [Setup and Installation](#setup-and-installation)
-14. [Usage Instructions](#usage-instructions)
-15. [Contribution Guidelines](#contribution-guidelines)
-16. [License](#license)
+8. [Video Description](#video-description)
+9. [Acknowledgements](#acknowledgements)
+10. [Result](#result)
+11. [Conclusion](#conclusion)
+12. [Future Improvement](#future-improvement)
+13. [Presentation](#presentation)
+14. [Setup and Installation](#setup-and-installation)
+15. [Usage Instructions](#usage-instructions)
+16. [Contribution Guidelines](#contribution-guidelines)
+17. [License](#license)
 
 ## Introduction
 <p align="justify">
-Visually impaired individuals face significant challenges in navigating their surroundings, often leading to accidents and reduced independence. Traditional mobility aids like canes provide limited information about the environment, primarily detecting obstacles at ground level. There is a need for a more advanced solution that can detect obstacles at various heights and provide real-time feedback to enhance mobility and safety. Central to this transformation is the "Wearable Navigation Aid for Visually Impaired Individuals Using LiDAR and Raspberry Pi Zero," which embodies the blend of convenience, safety, and innovation. Leveraging the capabilities of LiDAR sensors, a Raspberry Pi Zero, MPU sensors, GPS, GSM modules, servo motors, and ESP32, this project offers practical solutions to everyday challenges, enhancing the way visually impaired individuals interact with their environment.
+    Visually impaired individuals face significant challenges in navigating their surroundings, often leading to
+    accidents and reduced independence. Traditional mobility aids like canes provide limited information about the
+    environment, primarily detecting obstacles at ground level. To address these challenges, the "Wearable Navigation
+    Aid for Visually Impaired Individuals Using LiDAR and Raspberry Pi Zero" integrates advanced technology to enhance
+    mobility and safety. Central to its functionality is the integration of an AI assistant named "Alex," facilitating
+    intuitive interaction. This device leverages LiDAR sensors for precise obstacle detection, a Raspberry Pi Zero for
+    computational power, MPU sensors for motion tracking, GPS for location services, and GSM modules for communication.
+    These components work synergistically to offer real-time feedback and haptic alerts, reducing physical interaction
+    needs and providing essential features such as location tracking and emergency communication capabilities.
 </p>
 <p align="justify">
-Traditional methods of navigation for the visually impaired can be cumbersome, tiresome, and inefficient. This technology eliminates such challenges by allowing users to navigate their surroundings with real-time obstacle detection and haptic feedback, reducing the need for physical interaction. The wearable navigation aid can be utilized in a wide range of applications, from enhancing mobility and safety to providing location tracking and emergency communication features, significantly improving the quality of life for visually impaired individuals and simplifying everyday tasks across diverse environments.
+    Traditionally, navigating unfamiliar environments has been cumbersome and inefficient for the visually impaired.
+    This technology eliminates such challenges by allowing users to navigate their surroundings with real-time obstacle
+    detection and haptic feedback, reducing the need for physical interaction. The wearable navigation aid integrates
+    seamlessly into daily routines, offering features such as location tracking and emergency communication through GSM
+    modules. By leveraging LiDAR's precise object detection capabilities and Raspberry Pi Zero's computational power,
+    coupled with intuitive interaction facilitated by the AI assistant "Alex," this project sets a new standard in
+    assistive technology for the visually impaired, enhancing their independence and safety across diverse environments.
 </p>
+
 
 ## Overview
 <p align="justify">
-The project showcased here introduces an innovative solution utilizing wearable technology to enhance the mobility and safety of visually impaired individuals. Central to this system are LiDAR sensors, a Raspberry Pi Zero, MPU sensors, GPS, GSM modules, servo motors, and ESP32, which together provide real-time obstacle detection and spatial awareness through haptic feedback. This technology-driven approach offers a comprehensive and user-friendly solution to the challenges faced by visually impaired individuals in navigating their environment.
+    This project introduces an advanced wearable navigation aid designed to enhance the mobility and safety of visually
+    impaired individuals. Central to its functionality are LiDAR sensors, a Raspberry Pi Zero, MPU sensors, GPS, and GSM
+    modules, replacing ESP32. These components work synergistically to provide real-time obstacle detection, spatial
+    awareness, and intuitive interaction through an AI assistant named "Alex."
 <ul>
-    <li><b>LiDAR Sensors:</b> Detect obstacles and provide spatial awareness, scanning the environment and detecting obstacles at various heights.</li>
+    <li><b>LiDAR Sensors:</b> Detect obstacles and provide spatial awareness, scanning the environment and detecting
+        obstacles at various heights.</li>
     <li><b>Raspberry Pi Zero:</b> Acts as the main processing unit, handling data from all sensors and modules.</li>
     <li><b>MPU Sensors:</b> Detect orientation and movement, adjusting LiDAR scanning based on hand movements.</li>
     <li><b>GPS Module:</b> Offers location tracking and route guidance, enhancing navigation capabilities.</li>
-    <li><b>GSM Module:</b> Allows for sending alerts and receiving commands, providing emergency communication features.</li>
-    <li><b>Servo Motors:</b> Rotate LiDAR sensors for a wider field of view, ensuring comprehensive obstacle detection.</li>
-    <li><b>ESP32:</b> Functions as a microcontroller for the secondary bracelet, coordinating with the main unit.</li>
-    <li><b>Battery:</b> Powers all components, optimized for longer battery life through efficient power management strategies.</li>
+    <li><b>GSM Module:</b> Allows for sending alerts and receiving commands, providing emergency communication features.
+    </li>
+    <li><b>Servo Motors:</b> Rotate LiDAR sensors for a wider field of view, ensuring comprehensive obstacle detection.
+    </li>
+    <li><b>Battery:</b> Powers all components, optimized for longer battery life through efficient power management
+        strategies.</li>
 </ul>
-Users can benefit from increased confidence and independence in navigating their surroundings. The combination of real-time obstacle detection, haptic feedback, and navigation features exemplifies the practical application of advanced technology in enhancing the quality of life for visually impaired individuals. This project highlights the integration of IoT and wearable technology to provide a reliable and effective mobility aid.
+Users benefit from increased confidence and independence in navigating their surroundings. The integration of real-time
+obstacle detection, haptic feedback, and interactive AI assistance exemplifies the practical application of wearable
+technology in enhancing the quality of life for visually impaired individuals. This project showcases a pioneering
+approach in IoT and wearable technology, offering a reliable and effective solution to address the mobility challenges
+faced by the visually impaired community.
 </p>
 
 ## Components Required with Bill of Materials
@@ -154,7 +180,371 @@ Users can benefit from increased confidence and independence in navigating their
 
 ## Working Code
 ```python
-# Add your working code here
+# GemTest: Interactive AI Assistant for Blind Navigation
+
+import speech_recognition as sr
+import google.generativeai as genai
+import PIL.Image
+
+# Initialize speech recognizer
+recognizer = sr.Recognizer()
+
+# Open the image for object scanning
+img = PIL.Image.open('upscaled_image.jpg')
+
+# Configure GenerativeAI API
+genai.configure(api_key="AIzaSyDR1GiO72WfzSy9hyUPb6dQUIiEq0F74S4")
+
+# Initialize GenerativeAI model for chat interaction
+model = genai.GenerativeModel('gemini-1.5-flash')
+chat = model.start_chat(history=[])
+
+# Send initial message to GenerativeAI chat
+chat.send_message("""
+    You are a helpingbot that helps to navigate blind peoples, they might ask what's coming or in front of them, 
+    or describe things in front of them. You are here to help those. 
+    I will be giving you a dictionary of objects and their respective distances. 
+    You should be able to answer according to their query.
+""")
+
+def gemtest(a):
+    # Split the input into words
+    b = a.split(" ")
+    
+    if b[0] == "scan":
+        # If command is "scan", send image and command to GenerativeAI for object description
+        response = chat.send_message([
+            f"You will be given a grayscale or a black and white image with a possibly dark background. "
+            f"The image might be dark, blurry, and not optimal. The environment might seem like a dark room "
+            f"or nighttime, but don't mention that. Your task is to simply answer what the user asked. "
+            f"Here's the prompt: {a}", 
+            img
+        ], stream=True)
+        response.resolve()
+        print(response.text)
+    else:
+        # Otherwise, send the user's command for response
+        response = chat.send_message(f"Here's the prompt from the blind person: {a}")
+        print(response.text)
+
+def recognize_speech():
+    # Adjust for ambient noise and start listening
+    with sr.Microphone() as source:
+        print("Adjusting for ambient noise... Please wait.")
+        recognizer.adjust_for_ambient_noise(source, duration=1)
+        print("Listening...")
+
+        while True:
+            try:
+                # Listen for audio input
+                audio = recognizer.listen(source)
+                text = recognizer.recognize_google(audio)
+                print(f"You said: {text}")
+                gemtest(text)  # Process the recognized text
+            except sr.UnknownValueError:
+                print("Sorry, I could not understand the audio.")
+            except sr.RequestError as e:
+                print(f"Could not request results from Google Speech Recognition service; {e}")
+
+if __name__ == "__main__":
+    recognize_speech()  # Start speech recognition loop
+
+
+```
+
+```python
+# Image Preprocessing Pipeline
+
+import cv2
+import numpy as np
+
+def increase_brightness(image, value=50):
+    # Increase brightness by adding a constant value to each pixel
+    return cv2.convertScaleAbs(image, alpha=1, beta=value)
+
+def unsharp_mask(image, kernel_size=(5, 5), sigma=1.0, amount=1.5, threshold=0):
+    # Apply Gaussian blur to the image
+    blurred = cv2.GaussianBlur(image, kernel_size, sigma)
+    
+    # Calculate the sharpened image
+    sharpened = float(amount + 1) * image - float(amount) * blurred
+    
+    # Ensure the pixel values are within the valid range [0, 255]
+    sharpened = np.maximum(sharpened, np.zeros(sharpened.shape))
+    sharpened = np.minimum(sharpened, 255 * np.ones(sharpened.shape))
+    sharpened = sharpened.round().astype(np.uint8)
+    
+    if threshold > 0:
+        # Create a mask to apply sharpening only to the parts of the image with sufficient difference
+        low_contrast_mask = np.absolute(image - blurred) < threshold
+        np.copyto(sharpened, image, where=low_contrast_mask)
+
+    return sharpened
+
+def upscale_image(image, scale_percent=200):
+    # Upscale the image by the specified scale percentage
+    width = int(image.shape[1] * scale_percent / 100)
+    height = int(image.shape[0] * scale_percent / 100)
+    dim = (width, height)
+    return cv2.resize(image, dim, interpolation=cv2.INTER_CUBIC)
+
+# Read the image (assuming it's an RGB image but in grayscale form)
+image = cv2.imread('sandal.jpg')
+
+# Check if the image was loaded correctly
+if image is None:
+    print("Error loading image")
+else:
+    # Convert the RGB image to grayscale
+    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    # Increase the brightness of the grayscale image
+    brightened_gray_image = increase_brightness(gray_image, value=50)
+
+    # Apply Unsharp Mask to sharpen the brightened grayscale image
+    sharpened_brightened_gray_image = unsharp_mask(brightened_gray_image)
+
+    # Convert the sharpened brightened grayscale image back to RGB
+    sharpened_brightened_rgb_image = cv2.cvtColor(sharpened_brightened_gray_image, cv2.COLOR_GRAY2BGR)
+
+    # Upscale the sharpened RGB image
+    upscaled_image = upscale_image(sharpened_brightened_rgb_image, scale_percent=200)
+
+    # Save the processed image
+    cv2.imwrite('upscaled_image.jpg', upscaled_image)
+
+    print("Images saved successfully.")
+```
+```python
+# Real-time Object Detection and Distance Measurement with TensorFlow and Arducam TOF Camera
+
+import os
+import cv2
+import numpy as np
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+import sys
+import ArducamDepthCamera as ac
+import threading
+import socket
+
+# Constants for image resolution
+IM_WIDTH = 1280
+IM_HEIGHT = 720
+
+# Initialize the camera type
+camera_type = 'tof'
+
+sys.path.append('..')
+
+from utils import label_map_util
+from utils import visualization_utils as vis_util
+
+# Model configuration
+MODEL_NAME = 'ssdlite_mobilenet_v2_coco_2018_05_09'
+CWD_PATH = os.getcwd()
+PATH_TO_CKPT = os.path.join(CWD_PATH, MODEL_NAME, 'frozen_inference_graph.pb')
+PATH_TO_LABELS = os.path.join(CWD_PATH, 'data', 'mscoco_label_map.pbtxt')
+NUM_CLASSES = 90
+
+label_map = label_map_util.load_labelmap(PATH_TO_LABELS)
+categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True)
+category_index = label_map_util.create_category_index(categories)
+
+# Load the TensorFlow model
+detection_graph = tf.Graph()
+with detection_graph.as_default():
+    od_graph_def = tf.GraphDef()
+    with tf.gfile.GFile(PATH_TO_CKPT, 'rb') as fid:
+        serialized_graph = fid.read()
+        od_graph_def.ParseFromString(serialized_graph)
+        tf.import_graph_def(od_graph_def, name='')
+
+    sess = tf.Session(graph=detection_graph)
+
+# Get the input and output tensors
+image_tensor = detection_graph.get_tensor_by_name('image_tensor:0')
+detection_boxes = detection_graph.get_tensor_by_name('detection_boxes:0')
+detection_scores = detection_graph.get_tensor_by_name('detection_scores:0')
+detection_classes = detection_graph.get_tensor_by_name('detection_classes:0')
+num_detections = detection_graph.get_tensor_by_name('num_detections:0')
+
+# Set up the Arducam TOF Camera
+MAX_DISTANCE = 4
+
+def process_frame(depth_buf: np.ndarray, amplitude_buf: np.ndarray) -> np.ndarray:
+    """
+    Process the frame to highlight depth information and filter based on amplitude.
+
+    Args:
+    - depth_buf: Depth data from TOF camera.
+    - amplitude_buf: Amplitude data from TOF camera.
+
+    Returns:
+    - Processed frame with depth and amplitude information combined.
+    """
+    depth_buf = np.nan_to_num(depth_buf)
+    amplitude_buf[amplitude_buf <= 7] = 0
+    amplitude_buf[amplitude_buf > 7] = 255
+    depth_buf = (1 - (depth_buf / MAX_DISTANCE)) * 255
+    depth_buf = np.clip(depth_buf, 0, 255)
+    result_frame = depth_buf.astype(np.uint8) & amplitude_buf.astype(np.uint8)
+    return result_frame 
+
+class UserRect():
+    """
+    Class to define rectangular regions based on user interaction.
+    """
+    def __init__(self) -> None:
+        self.start_x = 0
+        self.start_y = 0
+        self.end_x = 0
+        self.end_y = 0
+
+selectRect = UserRect()
+followRect = UserRect()
+
+def on_mouse(event, x, y, flags, param):
+    """
+    Handle mouse events for selecting and following regions of interest.
+    """
+    global selectRect, followRect
+    if event == cv2.EVENT_LBUTTONDOWN:
+        pass
+    elif event == cv2.EVENT_LBUTTONUP:
+        selectRect.start_x = x - 4 if x - 4 > 0 else 0
+        selectRect.start_y = y - 4 if y - 4 > 0 else 0
+        selectRect.end_x = x + 4 if x + 4 < IM_WIDTH else IM_WIDTH
+        selectRect.end_y = y + 4 if y + 4 < IM_HEIGHT else IM_HEIGHT
+    else:
+        followRect.start_x = x - 4 if x - 4 > 0 else 0
+        followRect.start_y = y - 4 if y - 4 > 0 else 0
+        followRect.end_x = x + 4 if x + 4 < IM_WIDTH else IM_WIDTH
+        followRect.end_y = y + 4 if y + 4 < IM_HEIGHT else IM_HEIGHT
+
+# Initialize Arducam TOF Camera
+cam = ac.ArducamCamera()
+if cam.open(ac.TOFConnect.CSI, 0) != 0:
+    print("Initialization failed")
+if cam.start(ac.TOFOutput.DEPTH) != 0:
+    print("Failed to start camera")
+cam.setControl(ac.TOFControl.RANG, MAX_DISTANCE)
+cv2.namedWindow("preview", cv2.WINDOW_AUTOSIZE)
+cv2.setMouseCallback("preview", on_mouse)
+
+# Directory to save images
+SAVE_DIR = 'pic'
+if not os.path.exists(SAVE_DIR):
+    os.makedirs(SAVE_DIR)
+
+# Global variable to store detected objects
+detected_objects = {}
+
+# Function to save image with timestamp and store detected objects
+def save_image():
+    """
+    Capture an image from the TOF camera, process it for object detection,
+    and save it with detected objects annotated.
+    """
+    global detected_objects
+    frame = cam.requestFrame(200)
+    if frame is not None:
+        amplitude_buf = frame.getAmplitudeData()
+        depth_buf = frame.getDepthData()
+        cam.releaseFrame(frame)
+        amplitude_buf *= (255 / 1024)
+        amplitude_buf = np.clip(amplitude_buf, 0, 255)
+        amplitude_buf = amplitude_buf.astype(np.uint8)
+        amplitude_buf_rgb = cv2.cvtColor(amplitude_buf, cv2.COLOR_GRAY2RGB)
+        filename = f"{SAVE_DIR}/img.jpg"
+        cv2.imwrite(filename, amplitude_buf_rgb)
+        
+        # Process the frame for object detection
+        frame_expanded = np.expand_dims(amplitude_buf_rgb, axis=0)
+        (boxes, scores, classes, num) = sess.run(
+            [detection_boxes, detection_scores, detection_classes, num_detections],
+            feed_dict={image_tensor: frame_expanded}
+        )
+
+        # Reset the detected objects dictionary
+        detected_objects = {}
+        h, w, _ = amplitude_buf_rgb.shape
+        count = 1
+        for i in range(len(boxes[0])):
+            if scores[0][i] > 0.30:
+                ymin, xmin, ymax, xmax = boxes[0][i]
+                (left, right, top, bottom) = (xmin * w, xmax * w, ymin * h, ymax * h)
+                left, right, top, bottom = int(left), int(right), int(top), int(bottom)
+
+                box_center_x = (left + right) // 2
+                box_center_y = (top + bottom) // 2
+                distance = depth_buf[box_center_y, box_center_x]
+                class_name = category_index[classes[0][i]]['name']
+                label = f"{class_name}_{count}"
+                detected_objects[label] = distance
+                count += 1
+
+# Socket server to handle image capture requests
+def socket_server():
+    """
+    Start a socket server to listen for commands and trigger image capture.
+    """
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_socket.bind(('0.0.0.0', 3000))
+    server_socket.listen(1)
+    print("Socket server listening on port 3000...")
+
+    while True:
+        client_socket, addr = server_socket.accept()
+        print(f"Connection from {addr}")
+
+        while True:
+            data = client_socket.recv(1024).decode()
+            if not data:
+                break
+            if data.strip().lower() == "takepic":
+                save_image()
+                client_socket.send(str(detected_objects).encode())
+
+        client_socket.close()
+
+# Variables to control image capture timing
+font = cv2.FONT_HERSHEY_SIMPLEX
+
+def camera_loop():
+    """
+    Continuously capture frames from the TOF camera, process them for object detection,
+    and display results overlaid on the preview window.
+    """
+    while True:
+        t1 = cv2.getTickCount()  # Start time for FPS calculation
+
+        frame = cam.requestFrame(200)
+        if frame is not None:
+            depth_buf = frame.getDepthData()
+            amplitude_buf = frame.getAmplitudeData()
+            cam.releaseFrame(frame)
+            amplitude_buf *= (255 / 1024)
+            amplitude_buf = np.clip(amplitude_buf, 0, 255)
+            amplitude_buf = amplitude_buf.astype(np.uint8)
+
+            # Convert grayscale amplitude image to RGB
+            amplitude_buf_rgb = cv2.cvtColor(amplitude_buf, cv2.COLOR_GRAY2RGB)
+
+            result_image = process_frame(depth_buf, amplitude_buf)
+            result_image = cv2.applyColorMap(result_image, cv2.COLORMAP_JET)
+
+            cv2.rectangle(amplitude_buf_rgb, (selectRect.start_x, selectRect.start_y), (selectRect.end_x, selectRect.end_y), (128, 128, 128), 1)
+            cv2.rectangle(amplitude_buf_rgb, (followRect.start_x, followRect.start_y), (followRect.end_x, followRect.end_y), (255, 255, 255), 1)
+
+            # Convert amplitude_buf_rgb for object detection
+            frame_expanded = np.expand_dims(amplitude_buf_rgb, axis=0)
+
+            # Run object detection
+            (boxes, scores, classes, num) = sess.run(
+                [
+
+
 ```
 
 ## Demo Video
