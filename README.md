@@ -42,7 +42,7 @@
 <p align="justify">
     This project introduces an advanced wearable navigation aid designed to enhance the mobility and safety of visually
     impaired individuals. Central to its functionality are LiDAR sensors, a Raspberry Pi Zero, MPU sensors, GPS, and GSM
-    modules, replacing ESP32. These components work synergistically to provide real-time obstacle detection, spatial
+    modules. These components work synergistically to provide real-time obstacle detection, spatial
     awareness, and intuitive interaction through an AI assistant named "Alex."
 <ul>
     <li><b>LiDAR Sensors:</b> Detect obstacles and provide spatial awareness, scanning the environment and detecting
