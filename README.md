@@ -12,7 +12,7 @@
 9. [Result](#result)
 10. [Conclusion](#conclusion)
 11. [Future Improvement](#future-improvements)
-12. [Setup and Installation](#setup-and-installation1111
+12. [Setup and Installation](#setup-and-installation)
 13. [Comparison with Existing Technology (OrCam MyEye 2 Pro)](#comparison-with-existing-technology-orcam-myeye-2-pro)
 14. [Previous Project Videos](#previous-project-videos)
 
