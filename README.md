@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Overview](#overview)
-3. [Components Required with Bill of Materials](#components-required-with-bill-of-materials)
+3. [Components Required with Bill of Materials](#components-required-with-bill-of-materials)11
 4. [Table for Pin Connections](#table-for-pin-connections)
 5. [Pinout Diagram](#pinout-diagram)
 6. [Working Code](#working-code)
@@ -12,9 +12,9 @@
 9. [Result](#result)
 10. [Conclusion](#conclusion)
 11. [Future Improvement](#future-improvements)
-12. [Setup and Installation](#setup-and-installation)
+12. [Setup and Installation](#setup-and-installation1111
 13. [Comparison with Existing Technology (OrCam MyEye 2 Pro)](#comparison-with-existing-technology-orcam-myeye-2-pro)
-14. [Previous Project](#previous-project)
+14. [Previous Project Videos](#previous-project-videos)
 
 
 ## Introduction
@@ -730,7 +730,7 @@ Ensure upscaled_image.jpg is in the same directory as GemTest.py. This image is 
 - **Complexity in Usage**: The interface and operation of OrCam MyEye 2 Pro may be less intuitive and tailored specifically for navigation tasks compared to your device's user-friendly voice-command interface.
 
 
-## Previous Project
+## Previous Project Videos
 https://github.com/adityadhanraj14/PROJECT-Wearable-Navigation-Aid-for-Visually-Impaired-Individuals-Using-LiDAR-and-Raspberry-Pi-Zero/blob/main/assets/humanoid_arm.mp4
 <br>
 <br>
