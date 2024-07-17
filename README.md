@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Overview](#overview)
-3. [Components Required with Bill of Materials](#components-required-with-bill-of-materials)11
+3. [Components Required with Bill of Materials](#components-required-with-bill-of-materials)
 4. [Table for Pin Connections](#table-for-pin-connections)
 5. [Pinout Diagram](#pinout-diagram)
 6. [Working Code](#working-code)
